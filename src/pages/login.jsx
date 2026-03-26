@@ -38,26 +38,33 @@ function Login() {
                 <div className="absolute bottom-20 right-10 w-40 h-40 bg-blue-300 rounded-full opacity-5 blur-3xl"></div>
                 
                 {/* Conteúdo */}
-                <div className="relative z-10 text-center mx-auto max-w-md">
-                    {/* Logo */}
-                    <div className="mb-1 flex justify-center animate-fadeIn">
-                        <img 
-                            src="/logo_stayo_1.svg" 
-                            alt="Stay.io Logo" 
-                            className="h-60 w-auto"
-                        />
-                    </div>
-                    
-                    {/* Texto */}
-                    <h2 className="text-5xl font-bold text-white mb-6 animate-fadeIn" style={{ animationDelay: '0.1s' }}>
+                <div className="flex flex-col items-center text-center">
+
+                    {/* LOGO PAG. LOGIN */}
+                    <img src="logo_stayo_1.svg" alt="Stay.io" className="mb-8" />
+
+                    {/* Texto PAG. LOGIN */}
+                    <h2
+                        className="text-5xl font-bold text-white mb-1 animate-fadeIn"
+                        style={{ animationDelay: '0.1s' }}
+                    >
                         Bem-vindo
                     </h2>
-                    <p className="text-blue-100 text-lg mb-6 max-w-sm animate-fadeIn" style={{ animationDelay: '0.2s' }}>
+
+                    <p
+                        className="text-blue-100 text-lg mb-10 max-w-sm animate-fadeIn"
+                        style={{ animationDelay: '0.2s' }}
+                    >
                         Guest Experience Platform
                     </p>
-                    <p className="text-blue-200 text-sm max-w-sm leading-relaxed animate-fadeIn" style={{ animationDelay: '0.3s' }}>
-                        Gerenciamento inteligente de check-in, comunicação e atendimento ao hóspede em tempo real
+
+                    <p
+                        className="text-blue-200 text-sm max-w-sm leading-relaxed animate-fadeIn"
+                        style={{ animationDelay: '0.3s' }}
+                    >
+                        Gerenciamento inteligente de check-in, comunicação e atendimento ao hóspede em tempo real.
                     </p>
+
                 </div>
             </div>
 
